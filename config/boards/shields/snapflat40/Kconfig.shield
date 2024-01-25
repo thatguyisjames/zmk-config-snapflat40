@@ -1,0 +1,2 @@
+config SHEID_SNAPFLAT40
+    def_bool $(shields_list_contains, snapflat40)

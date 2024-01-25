@@ -1,0 +1,6 @@
+if SHIELD_SNAPFLAT40
+
+config ZMK_KEYBOARD_NAME
+    default "snapflat40"
+
+endif
