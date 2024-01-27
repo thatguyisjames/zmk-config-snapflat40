@@ -1,6 +1,6 @@
-if SHIELD_SNAPFLAT40
+if SHIELD_SNAPFLATFOURTY
 
 config ZMK_KEYBOARD_NAME
-    default "snapflat40"
+    default "snapflatfourty"
 
 endif

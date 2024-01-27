@@ -19,4 +19,4 @@
 ---
 include:
   - board: nice_nano
-    shield: snapflat40
+    shield: snapflatfourty
