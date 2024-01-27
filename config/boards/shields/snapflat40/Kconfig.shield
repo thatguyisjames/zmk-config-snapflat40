@@ -1,2 +1,2 @@
-config SHEID_SNAPFLATFOURTY
+config SHIELD_SNAPFLATFOURTY
     def_bool $(shields_list_contains,snapflatfourty)
