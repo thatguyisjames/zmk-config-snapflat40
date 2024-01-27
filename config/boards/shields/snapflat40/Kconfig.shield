@@ -1,2 +1,2 @@
 config SHEID_SNAPFLATFOURTY
-    def_bool $(shields_list_contains, snapflatfourty)
+    def_bool $(shields_list_contains,snapflatfourty)
