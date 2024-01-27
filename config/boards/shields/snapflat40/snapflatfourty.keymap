@@ -25,7 +25,7 @@
 		lower_layer {
 
 			bindings = <
-	&kp TAB   &kp N1   &kp N2   &kp N3   &kp N4    &kp N5    &kp N6    &kp N7    &kp N8    &kp N9   &kp N0    &kp PIPE
+	&kp GRAVE &kp N1   &kp N2   &kp N3   &kp N4    &kp N5    &kp N6    &kp N7    &kp N8    &kp N9   &kp N0    &kp DEL
 	&kp CAPS  &trans   &kp HOME &kp UP   &kp END   &kp PG_UP &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp COLON &kp RET
 	&kp LSHFT &trans   &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &kp SQT   &kp PIPE  &kp LPAR  &kp RPAR &kp QMARK &kp RSHFT
 	&kp LCTRL &kp LGUI &kp LALT &trans   &trans    &kp SPACE &kp SPACE &mo BLUET &kp UP    &kp DOWN &kp LEFT  &kp RIGHT
@@ -34,7 +34,7 @@
 		raise_layer {
 
 			bindings = <
-	&kp TAB   &kp EXCL &kp AT   &kp HASH &kp DLLR  &kp PRCNT &kp CARET &kp AMPS  &kp STAR &kp LPAR &kp RPAR  &kp BSLH
+	&kp TILDE &kp EXCL &kp AT   &kp HASH &kp DLLR  &kp PRCNT &kp CARET &kp AMPS  &kp STAR &kp LPAR &kp RPAR  &kp DEL
 	&kp CAPS  &trans   &trans   &trans   &trans    &trans    &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp COLON &kp RET
 	&kp LSHFT &trans   &trans   &trans   &trans    &trans    &kp DQT   &kp BSLH  &kp LT   &kp GT   &kp QMARK &kp RSHFT
 	&kp LCTRL &kp LGUI &kp LALT &trans   &mo BLUET &kp SPACE &kp SPACE &trans    &kp UP   &kp DOWN &kp LEFT  &kp RIGHT
@@ -43,8 +43,8 @@
 		bt_layer {
 
 			bindings = <
-	&kp GRAVE &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans     &trans     &trans &trans   &trans   &bt BT_CLR
-	&kp TAB   &trans       &trans       &trans       &trans       &trans       &trans     &trans     &trans &trans   &trans   &kp BSLH
+	&kp E &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans     &trans     &trans &trans   &trans   &bt BT_CLR
+	&kp CAPS   &trans       &trans       &trans       &trans       &trans       &trans     &trans     &trans &trans   &trans   &kp BSLH
 	&kp LSHFT &trans       &trans       &trans       &trans       &trans       &bt BT_NXT &bt BT_PRV &trans &trans   &trans   &kp RSHFT
 	&kp LCTRL &kp LGUI     &kp LALT     &trans       &trans       &kp SPACE    &kp SPACE  &trans     &kp UP &kp DOWN &kp LEFT &kp RIGHT
 			>;
